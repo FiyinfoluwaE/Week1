@@ -9,6 +9,10 @@ body {
   --secondary-color: #fdb34b28;
   --box-shadow: 4px 10px 20px rgba(0, 0, 0, 0.2);
 }
+h1 {
+  font-size: 96px;
+  line-height: 1.2;
+}
 .Hi,
 h1,
 footer {
@@ -18,10 +22,6 @@ footer {
 h2 {
   font-size: 48px;
   font-weight: 500;
-}
-h1 {
-  font-size: 96px;
-  line-height: 1.2;
 }
 footer {
   font-size: 24px;
@@ -54,6 +54,11 @@ footer {
 p {
   font-size: 18px;
   margin: 15px 0 45px;
+}
+@media (max-width: 576px) {
+  .images {
+    margin: 30px;
+  }
 }
 #backPage {
   color: var(--primary-color);
