@@ -1,0 +1,87 @@
+body {
+  margin: 100px auto;
+}
+#fixed-name {
+  margin-left: 35px;
+}
+:root {
+  --primary-color: #00bbf0;
+  --secondary-color: #fdb34b28;
+  --box-shadow: 4px 10px 20px rgba(0, 0, 0, 0.2);
+}
+h1,
+header,
+footer {
+  font-weight: 500;
+  text-align: center;
+}
+h1 {
+  font-size: 48px;
+  margin: 0;
+}
+h2 {
+  font-size: 48px;
+  font-weight: 500;
+}
+header {
+  font-size: 96px;
+  line-height: 1.2;
+}
+footer {
+  font-size: 24px;
+  opacity: 0.7;
+}
+.links {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0;
+}
+.me {
+  padding: 20px 15px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin: 0 20px;
+}
+#contactMe,
+.launch-app {
+  color: white;
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+}
+#aboutMe {
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+.launch-app {
+  margin: 0;
+}
+p {
+  font-size: 18px;
+  margin: 15px 0 45px;
+}
+#backPage {
+  color: var(--primary-color);
+  display: block;
+  text-align: center;
+}
+.writeUp {
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.5;
+  padding: 30px 20px;
+}
+.image {
+  border: 8px solid white;
+  border-radius: 5px;
+  box-shadow: var(--box-shadow);
+}
+#mail {
+  display: block;
+  text-decoration: none;
+  font-size: 28px;
+  color: var(--primary-color);
+  text-align: center;
+}
+#contact-me {
+  margin-top: 50px;
+}
